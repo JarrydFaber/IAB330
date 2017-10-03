@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Wheresmystuff"
+             x:Class="Wheresmystuff.MainPage">
+
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness"
+		 iOS="20,40,20,	20"
+         Android="20,20,20,	20"
+         WinPhone="20, 20,20,20"/>
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand"
+		 HorizontalOptions="FillAndExpand"
+         Orientation="Vertical"
+         Spacing="10">
+			<Label Text="MENU"
+				   FontSize="Large"
+				   TextColor="Green"
+				   HorizontalTextAlignment="Center"
+				   VerticalOptions="Start">
+			</Label>
+			<Button x:Name="inventoryButton" Text="INVENTORY"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="MediumPurple"
+					HeightRequest="150"
+					WidthRequest="150"
+					Clicked="InventoryButton"
+					Image="empty-box.png"></Button>
+			<Button x:Name="boxesButton" Text="BOXES"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="LightGreen"
+					HeightRequest="150"
+					WidthRequest="150"
+					Clicked="BoxesButton"></Button>
+			<StackLayout Orientation="Horizontal">
+				<Button x:Name="scanButton" Text="SCAN"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="Aqua"
+					HeightRequest="75"
+					WidthRequest="150"
+					HorizontalOptions="Start"
+					Clicked="ScanButton"></Button>
+			    <Button x:Name="emailButton" Text="EMAIL"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="LightGoldenrodYellow"
+					HeightRequest="75"
+					WidthRequest="150"
+					HorizontalOptions="End"
+					Clicked="PrintButton"></Button>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -4,6 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using SQLite.Net.Interop;
+using SQLite.Net.Platform.XamarinIOS;
 
 namespace Wheresmystuff.iOS
 {
@@ -23,7 +26,9 @@ namespace Wheresmystuff.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init();
-			LoadApplication(new App());
+            DependencyService.Register<FileHelperiOS>();
+            DependencyService.Register<ISQLitePlatform, SQLitePlatformIOS>();
+            LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);
 		}

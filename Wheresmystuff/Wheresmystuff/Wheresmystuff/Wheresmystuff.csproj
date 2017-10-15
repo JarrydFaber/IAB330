@@ -41,12 +41,15 @@
     <Compile Include="BoxPage.xaml.cs">
       <DependentUpon>BoxPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Databases\MyDatabase.cs" />
+    <Compile Include="Interfaces\IFileHelper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="InventoryPage.xaml.cs">
       <DependentUpon>InventoryPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\ToDoItem.cs" />
     <Compile Include="PrintPage.xaml.cs">
       <DependentUpon>PrintPage.xaml</DependentUpon>
     </Compile>
@@ -54,6 +57,9 @@
     <Compile Include="ScanPage.xaml.cs">
       <DependentUpon>ScanPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SecondViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">

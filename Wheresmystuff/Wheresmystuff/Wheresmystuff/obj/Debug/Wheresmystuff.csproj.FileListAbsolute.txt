@@ -52,3 +52,8 @@ C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystu
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.PrintPage.xaml.g.cs
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.dll
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.pdb
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.Items.xaml.g.cs
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.SecondPage.xaml.g.cs
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.dll
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLiteNetExtensions.dll
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.xml

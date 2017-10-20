@@ -13,7 +13,7 @@ namespace Wheresmystuff
 		{
 			InitializeComponent();
 
-			MainPage = new Wheresmystuff.MainPage() { BackgroundColor = Color.LightGray };
+			MainPage = new NavigationPage(new Wheresmystuff.MainPage() { BackgroundColor = Color.LightGray });
 		}
 
 		protected override void OnStart()

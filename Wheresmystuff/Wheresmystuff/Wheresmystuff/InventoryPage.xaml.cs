@@ -9,12 +9,16 @@ using Xamarin.Forms.Xaml;
 namespace Wheresmystuff
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page1 : ContentPage
+	public partial class InventoryPage : ContentPage
 	{
-		public Page1()
+		public InventoryPage()
 		{
 			InitializeComponent();
 		}
 
-	}
+        private void SubmitButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SecondPage());
+        }
+    }
 }

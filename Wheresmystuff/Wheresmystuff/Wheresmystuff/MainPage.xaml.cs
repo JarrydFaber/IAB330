@@ -17,7 +17,7 @@ namespace Wheresmystuff
 		void InventoryButton (object sender, EventArgs args)
 		{
 			// Write code here to move onto inventory page
-			Navigation.PushModalAsync(new Page1());
+			Navigation.PushModalAsync(new InventoryPage());
 		}
 
 		void BoxesButton(object sender, EventArgs args)

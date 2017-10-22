@@ -16,5 +16,9 @@ namespace Wheresmystuff
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void addNewBox_Clicked(object sender, EventArgs e) {
+
+        }
+    }
 }

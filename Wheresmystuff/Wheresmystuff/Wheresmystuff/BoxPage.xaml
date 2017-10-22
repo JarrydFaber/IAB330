@@ -19,6 +19,15 @@
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
 			</Label>
-		</StackLayout>
+            <Button x:Name="addNewBox" Text="Add New Box"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="MediumPurple"
+					HeightRequest="75"
+					WidthRequest="150"
+					Clicked="addNewBox_Clicked">
+            </Button>
+            
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

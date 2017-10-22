@@ -11,13 +11,17 @@
 namespace Wheresmystuff {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Jarrad\\Documents\\Visual Studio 2017\\Projects\\Wheresmystuff\\Wheresmystuff" +
-        "\\Wheresmystuff\\BoxPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Doug Brennan\\Source\\Repos\\IAB330\\Wheresmystuff\\Wheresmystuff\\Wheresmystu" +
+        "ff\\BoxPage.xaml")]
     public partial class BoxPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button addNewBox;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BoxPage));
+            addNewBox = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "addNewBox");
         }
     }
 }

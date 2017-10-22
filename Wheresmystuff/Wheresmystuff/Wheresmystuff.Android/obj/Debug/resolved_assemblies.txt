@@ -1,59 +1,59 @@
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.Android.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\FormsViewGroup.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite-net.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite.Net.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLiteNetExtensions.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.core.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Java.Interop.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Mono.Android.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\mscorlib.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Core.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Collections.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Reflection.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Linq.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Threading.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Globalization.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Text.Encoding.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ObjectModel.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ComponentModel.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.IO.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Net.Http.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Mono.Security.dll
-C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.Android.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\FormsViewGroup.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite-net.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite.Net.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLiteNetExtensions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.core.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Core.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Collections.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Linq.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Threading.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Globalization.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Text.Encoding.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ObjectModel.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.ComponentModel.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.IO.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Mono.Security.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll

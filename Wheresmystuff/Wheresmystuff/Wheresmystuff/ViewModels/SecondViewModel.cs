@@ -27,7 +27,7 @@ namespace Wheresmystuff.ViewModels
         public SecondViewModel()
         {
             db = new MyDatabase();
-            //ToDoItems = new ObservableCollection<ToDoItem>(db.GetAllToDoItems());
+            ToDoItems = new ObservableCollection<ToDoItem>(db.GetAllToDoItems());
         }
     }
 }

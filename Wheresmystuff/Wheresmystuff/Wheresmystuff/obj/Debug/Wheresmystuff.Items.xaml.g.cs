@@ -11,7 +11,8 @@
 namespace Wheresmystuff {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Github\\IAB330\\Wheresmystuff\\Wheresmystuff\\Wheresmystuff\\Items.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Doug Brennan\\Source\\Repos\\IAB330\\Wheresmystuff\\Wheresmystuff\\Wheresmystu" +
+        "ff\\Items.xaml")]
     public partial class InventoryPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

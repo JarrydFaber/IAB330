@@ -57,3 +57,35 @@ C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystu
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.dll
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLiteNetExtensions.dll
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Wheresmystuff.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Wheresmystuff.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLite-net.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLite.Net.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLiteNetExtensions.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLite-net.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\SQLite-net.xml
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.csprojResolveAssemblyReference.cache
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.csproj.CoreCompileInputs.cache
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.MainPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.App.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.InventoryPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.BoxPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.ScanPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.PrintPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.Items.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.SecondPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.dll
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.pdb

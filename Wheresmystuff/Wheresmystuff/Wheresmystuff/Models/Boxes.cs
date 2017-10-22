@@ -24,7 +24,7 @@ namespace Wheresmystuff.Models
         public Accounts Accounts { get; set; }
 
         [OneToMany(CascadeOperations = CascadeOperation.All)] //Sets One-to-Many r/ship between Boxes and Accounts
-        public List<Items> Items{ get; set; } //Creates an indexed list of Items
+        public List<Items_> Items{ get; set; } //Creates an indexed list of Items
 
     }
 }

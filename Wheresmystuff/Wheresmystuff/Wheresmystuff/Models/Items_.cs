@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 using SQLite;
 using SQLiteNetExtensions.Attributes;
 
-
 namespace Wheresmystuff.Models
 {
-    public class Items
+    public class Items_
     {
         [PrimaryKey, AutoIncrement] //Sets the Primary Key for the table and switches on AutoIncrement
         public int ItemId { get; set; }

@@ -51,7 +51,7 @@
     </Compile>
     <Compile Include="Models\Accounts.cs" />
     <Compile Include="Models\Boxes.cs" />
-    <Compile Include="Models\Items.cs" />
+    <Compile Include="Models\Items_.cs" />
     <Compile Include="Models\ToDoItem.cs" />
     <Compile Include="Items.xaml.cs">
       <DependentUpon>Items.xaml</DependentUpon>

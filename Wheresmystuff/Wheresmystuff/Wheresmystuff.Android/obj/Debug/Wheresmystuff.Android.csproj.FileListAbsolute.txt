@@ -124,3 +124,4 @@ C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\New
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\SQLiteNetExtensions.dll
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Newtonsoft.Json.xml
 C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\SQLiteNetExtensions.dll.mdb
+C:\Github\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLiteNetExtensions.dll.mdb

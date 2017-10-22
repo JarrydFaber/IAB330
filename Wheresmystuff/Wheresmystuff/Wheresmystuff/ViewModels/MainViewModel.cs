@@ -55,23 +55,23 @@ namespace Wheresmystuff.ViewModels
         public MainViewModel()
         {
             db = new MyDatabase();
-            SubmitCommand = new Command(Submit);
+            //SubmitCommand = new Command(Submit);
             SecondPageCommand = new Command(() =>
             {
             });
         }
 
-        public void Submit()
-        {
-            db.Insert(new ToDoItem()
-            {
-                Title = this.Title,
-                Details = Details,
-                Complete = Complete
-            });
-            Title = String.Empty;
-            Details = String.Empty;
-            Complete = false;
-        }
+        //public void Submit()
+        //{
+        //    db.Insert(new ToDoItem()
+        //    {
+        //        Title = this.Title,
+        //        Details = Details,
+        //        Complete = Complete
+        //    });
+        //    Title = String.Empty;
+        //    Details = String.Empty;
+        //    Complete = false;
+        //}
     }
 }

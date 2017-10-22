@@ -17,7 +17,7 @@ namespace Wheresmystuff.Models
         [ForeignKey(typeof(Boxes))] //Sets BoxId as a Foreign Key
         public int BoxId { get; set; }
 
-        [ForeignKey(typeof(Items))] //Sets ItemId as a Foreign Key
+        [ForeignKey(typeof(Items_))] //Sets ItemId as a Foreign Key
         public int ItemId { get; set; }
 
         public string AccountName { get; set; }
@@ -26,7 +26,7 @@ namespace Wheresmystuff.Models
         public List<Boxes> Boxes { get; set; } //Creates an indexed list of Boxes
 
         [OneToMany(CascadeOperations = CascadeOperation.All)] //Sets One-to-Many r/ship between Accounts and Items
-        public List<Items> Items { get; set; } //Creates an indexed list of Items
+        public List<Items_> Items { get; set; } //Creates an indexed list of Items
 
         [OneToMany(CascadeOperations = CascadeOperation.All)] //Sets One-to-Many r/ship between Accounts and Users
         public List<Users> Users { get; set; } //Creates an indexed list of Users

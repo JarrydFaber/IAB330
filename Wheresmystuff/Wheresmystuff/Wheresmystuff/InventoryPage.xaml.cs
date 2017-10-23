@@ -18,7 +18,7 @@ namespace Wheresmystuff
 
         private void SubmitButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new SecondPage());
+            //Navigation.PushAsync(new SecondPage());
         }
     }
 }

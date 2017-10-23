@@ -20,46 +20,47 @@ namespace Wheresmystuff.Databases
             database = new SQLiteConnection(DependencyService.Get<ISQLitePlatform>(), 
                 DependencyService.Get<IFileHelper>().GetLocalpath("ToDoSQLite.db"));
 
-            database.CreateTable<ToDoItem>();
+            database.CreateTable<Boxes>();
         }
         
-        public int Insert(ToDoItem toDoItem)
+        public int Insert(Boxes box)
         {
-            var item = database.Insert(toDoItem);
+            var item = database.Insert(box);
             database.Commit();
             return item;
 
         }
-        public int InsertOrUpdate(ToDoItem toDoItem)
+        public int InsertOrUpdate(Boxes box)
         {
             int num;
-            if (database.Table<ToDoItem>().Any(x=> x.Id == toDoItem.Id))
+            if (database.Table<Boxes>().Any(x=> x.BoxId == box.BoxId))
             {
-                num = database.Update(toDoItem);
+                num = database.Update(box);
             }
             else
             {
-                num = database.Insert(toDoItem);
+                num = database.Insert(box);
             }
             database.Commit();
             return num;
         }
-        public int Delete(ToDoItem toDoItem)
+        public int Delete(Boxes box)
         {
             int num;
-            num = database.Delete<ToDoItem>(toDoItem.Id);
+            num = database.Delete<Boxes>(box.BoxId);
             database.Commit();
             return num;
         }
 
-        public List<ToDoItem> GetAllToDoItems()
+        public List<Boxes> GetAllBoxes()
         {
-            return database.Table<ToDoItem>().ToList();
+            return database.Table<Boxes>().ToList();
         }
 
-        public ToDoItem GetToDoItem(int key)
+        public Boxes GetBox(int key)
         {
-            return database.Table<ToDoItem>().Where(tablerow => tablerow.Id == key).FirstOrDefault();
+            return database.Table<Boxes>().Where(x => x.BoxId == key).FirstOrDefault();
+            //return database.Table<Boxes>().Where(tablerow => tablerow.Id == key).FirstOrDefault();
         }
     }
 }

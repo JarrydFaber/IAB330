@@ -16,37 +16,37 @@ namespace Wheresmystuff.ViewModels
     {
         private readonly MyDatabase db;
 
-        private string title;
+        private string boxName;
 
-        public string Title
+        public string BoxName
         {
-            get { return title; }
+            get { return boxName; }
             set
             {
-                title = value;
+                boxName = value;
                 OnPropertyChanged();
             }
         }
-        private string details;
+        private string qrcd;
 
-        public string Details
+        public string QRCD
         {
-            get { return details; }
+            get { return qrcd; }
             set
             {
-                details = value;
+                qrcd = value;
                 OnPropertyChanged();
             }
         }
 
-        private bool complete;
+        private string category;
 
-        public bool Complete
+        public string Category
         {
-            get { return complete; }
+            get { return category; }
             set
             {
-                complete = value;
+                category = value;
                 OnPropertyChanged();
             }
         }
@@ -63,15 +63,15 @@ namespace Wheresmystuff.ViewModels
 
         public void Submit()
         {
-            db.Insert(new ToDoItem()
+            db.Insert(new Boxes()
             {
-                Title = this.Title,
-                Details = Details,
-                Complete = Complete
+                BoxName = this.BoxName,
+                QRcd = QRCD,
+                Category = Category
             });
-            Title = String.Empty;
-            Details = String.Empty;
-            Complete = false;
+            BoxName = String.Empty;
+            qrcd = String.Empty;
+            Category = String.Empty;
         }
     }
 }

@@ -13,13 +13,19 @@
 		 HorizontalOptions="FillAndExpand"
          Orientation="Vertical"
          Spacing="10">
+            
 			<Label Text="BOXES"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
 			</Label>
-            <Button x:Name="addNewBox" Text="Add New Box"
+
+            <Entry x:Name="box_entry"
+                   Text="Enter New Box Name">
+            </Entry>
+
+            <Button x:Name="addNewBox" Text="Add Box"
 					FontSize="Medium"
 					BorderColor="Black"
 					BackgroundColor="MediumPurple"
@@ -27,7 +33,25 @@
 					WidthRequest="150"
 					Clicked="addNewBox_Clicked">
             </Button>
+
             
+            <ListView ItemsSource="{Binding Boxes}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal" Padding="10,0">
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding BoxName}" FontAttributes="Bold"/>
+                                    </StackLayout>
+                                    <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding Complete}"/>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -13,10 +13,8 @@ using Xamarin.Forms.Xaml;
 namespace Wheresmystuff
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BoxPage : ContentPage
-	{
-		public BoxPage ()
-		{
+	public partial class BoxPage : ContentPage {
+		public BoxPage () {
 			InitializeComponent ();
             BindingContext = new BoxViewModel(); 
         }
@@ -26,8 +24,8 @@ namespace Wheresmystuff
             Boxes box = new Boxes();
             box.BoxName = text;
             MyDatabase new_user = new MyDatabase();
-            new_user.Insert(box);
-            //var box_name = new Entry { Text = "Add New Box" }; 
+            new_user.InsertBox(box);
+            BindingContext = new BoxViewModel();
         }
     }
 }

@@ -52,9 +52,6 @@
     <Compile Include="Models\Accounts.cs" />
     <Compile Include="Models\Boxes.cs" />
     <Compile Include="Models\Items.cs" />
-    <Compile Include="Items.xaml.cs">
-      <DependentUpon>Items.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Models\Users.cs" />
     <Compile Include="PrintPage.xaml.cs">
       <DependentUpon>PrintPage.xaml</DependentUpon>
@@ -63,6 +60,7 @@
     <Compile Include="ScanPage.xaml.cs">
       <DependentUpon>ScanPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\ItemViewModel.cs" />
     <Compile Include="ViewModels\BoxViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
@@ -132,12 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PrintPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Items.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

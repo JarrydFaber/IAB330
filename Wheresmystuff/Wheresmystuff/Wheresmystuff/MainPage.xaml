@@ -21,21 +21,22 @@
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
 			</Label>
-			<Button x:Name="inventoryButton" Text="INVENTORY"
+            <Button x:Name="inventoryButton" Text="INVENTORY"
 					FontSize="Medium"
 					BorderColor="Black"
 					BackgroundColor="MediumPurple"
 					HeightRequest="150"
 					WidthRequest="150"
-					Clicked="InventoryButton"
-					Image="empty-box.png"></Button>
-			<Button x:Name="boxesButton" Text="BOXES"
+					Clicked="inventoryButton_Clicked">
+            </Button>
+            <Button x:Name="boxesButton" Text="BOXES"
 					FontSize="Medium"
 					BorderColor="Black"
 					BackgroundColor="LightGreen"
 					HeightRequest="150"
 					WidthRequest="150"
-					Clicked="BoxesButton"></Button>
+					Clicked="BoxesButton">
+            </Button>
 			<StackLayout Orientation="Horizontal">
 				<Button x:Name="scanButton" Text="SCAN"
 					FontSize="Medium"

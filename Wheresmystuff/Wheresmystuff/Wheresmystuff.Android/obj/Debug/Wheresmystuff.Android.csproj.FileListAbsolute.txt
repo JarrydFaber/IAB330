@@ -153,7 +153,6 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.pdb
-C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.dll.mdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Newtonsoft.Json.xml
@@ -180,9 +179,9 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\res\layout\tabbar.xml
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\res\layout\toolbar.xml
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\res\values\styles.xml
-C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\res\drawable\empty-box.png
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\R.cs.flag
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\uploadflags.txt
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.dll.mdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.Android.dll.mdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLiteNetExtensions.dll.mdb

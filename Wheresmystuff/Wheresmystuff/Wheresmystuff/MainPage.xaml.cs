@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Wheresmystuff.Databases;
 
 namespace Wheresmystuff
 {
@@ -12,13 +13,9 @@ namespace Wheresmystuff
 		public MainPage()
 		{
 			InitializeComponent();
-		}
-
-		void InventoryButton (object sender, EventArgs args)
-		{
-			// Write code here to move onto inventory page
-			Navigation.PushModalAsync(new InventoryPage());
-		}
+            MyDatabase new_user = new MyDatabase();
+            new_user.CreateTables();
+        }
 
 		void BoxesButton(object sender, EventArgs args)
 		{
@@ -40,8 +37,8 @@ namespace Wheresmystuff
 
 		private void inventoryButton_Clicked(object sender, EventArgs e)
 		{
-
-		}
+            Navigation.PushModalAsync(new InventoryPage());
+        }
 
 	}
 }

@@ -11,8 +11,8 @@
 namespace Wheresmystuff {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Jarrad\\Documents\\Visual Studio 2017\\Projects\\Wheresmystuff\\Wheresmystuff" +
-        "\\Wheresmystuff\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Doug Brennan\\Source\\Repos\\IAB330\\Wheresmystuff\\Wheresmystuff\\Wheresmystu" +
+        "ff\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

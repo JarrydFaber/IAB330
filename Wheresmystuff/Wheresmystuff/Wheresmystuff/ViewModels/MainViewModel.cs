@@ -63,7 +63,7 @@ namespace Wheresmystuff.ViewModels
 
         public void Submit()
         {
-            db.Insert(new Boxes()
+            db.InsertBox(new Boxes()
             {
                 BoxName = this.BoxName,
                 QRcd = QRCD,

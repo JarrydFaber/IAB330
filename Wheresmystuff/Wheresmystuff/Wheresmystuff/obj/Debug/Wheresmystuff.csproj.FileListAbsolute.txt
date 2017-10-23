@@ -77,7 +77,6 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.csprojResolveAssemblyReference.cache
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.csproj.CoreCompileInputs.cache
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.MainPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.App.xaml.g.cs
@@ -85,6 +84,6 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.BoxPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.ScanPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.PrintPage.xaml.g.cs
-C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.Items.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.dll
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.pdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.csprojResolveAssemblyReference.cache

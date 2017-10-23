@@ -11,8 +11,8 @@
 namespace Wheresmystuff {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\jarrad\\documents\\visual studio 2017\\Projects\\Wheresmystuff\\Wheresmystuff" +
-        "\\Wheresmystuff\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Doug Brennan\\Source\\Repos\\IAB330\\Wheresmystuff\\Wheresmystuff\\Wheresmystu" +
+        "ff\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -18,7 +18,7 @@ namespace Wheresmystuff.Models
         public int AccountId { get; set; }
 
         [ForeignKey(typeof(Boxes))] //Sets BoxId as a Foreign Key
-        public int BoxId { get; set; }
+        public int BoxID { get; set; }
 
         public string ItemName { get; set; }
         public int Quantity { get; set; }

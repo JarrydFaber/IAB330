@@ -11,7 +11,7 @@ namespace Wheresmystuff.Models
     public class Boxes
     {
         [PrimaryKey, AutoIncrement] //Sets the Primary Key for the table and switches on AutoIncrement
-        public int BoxId { get; set; }
+        public int BoxID { get; set; }
 
         [ForeignKey (typeof(Accounts))] //Sets AccountId as a Foreign Key
         public int AccountId { get; set; }

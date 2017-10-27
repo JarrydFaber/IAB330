@@ -12,11 +12,11 @@ using Xamarin.Forms.Xaml;
 
 namespace Wheresmystuff
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class BoxPage : ContentPage {
-		public BoxPage () {
-			InitializeComponent ();
-            BindingContext = new BoxViewModel(); 
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class BoxPage : ContentPage {
+        public BoxPage() {
+            InitializeComponent();
+            BindingContext = new BoxViewModel();
         }
 
         private void addNewBox_Clicked(object sender, EventArgs e) {
@@ -26,6 +26,11 @@ namespace Wheresmystuff
             MyDatabase new_user = new MyDatabase();
             new_user.InsertBox(box);
             BindingContext = new BoxViewModel();
+        }
+
+        private void editBox(object sender, EventArgs e) {
+            //int temp_boxID = [Import BoxID from XAML];
+            //Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
         }
     }
 }

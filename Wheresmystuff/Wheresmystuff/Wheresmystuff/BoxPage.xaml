@@ -42,7 +42,9 @@
                             <ViewCell.View>
                                 <StackLayout Orientation="Horizontal" Padding="10,0">
                                     <StackLayout HorizontalOptions="StartAndExpand">
-                                        <Label Text="{Binding BoxName}" FontAttributes="Bold"/>
+                                        <Button x:Name="editBoxButton" Text="{Binding BoxName}" x:Key="{Binding BoxID}" 
+                                                FontAttributes="Bold" Clicked="editBox" HeightRequest="75" 
+                                                WidthRequest="150" FontSize="Medium" BorderColor="Black"/>
                                     </StackLayout>
                                     <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding Complete}"/>
                                 </StackLayout>

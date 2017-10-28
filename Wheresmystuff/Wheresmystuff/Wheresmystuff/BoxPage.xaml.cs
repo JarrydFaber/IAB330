@@ -29,8 +29,8 @@ namespace Wheresmystuff
         }
 
         private void editBox(object sender, EventArgs e) {
-            //int temp_boxID = [Import BoxID from XAML];
-            //Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
+            int temp_boxID = editBoxButton.CommandParameter;
+            Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
         }
     }
 }

@@ -1,4 +1,10 @@
-﻿using SQLite.Net;
+﻿/* Title: Where's My Stuff
+ * Subject: IAB330 
+ * Group Members: Doug Brennan, Andrew Wallington, Jarryd Bent, Joseph Richards
+ * Date: 29/10/17
+ */
+
+using SQLite.Net;
 using Wheresmystuff.Databases;
 using Wheresmystuff.Interfaces;
 using Wheresmystuff.Models;
@@ -10,61 +16,48 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace Wheresmystuff.ViewModels
-{
-    public class MainViewModel : ViewModelBase
-    {
+namespace Wheresmystuff.ViewModels {
+    public class MainViewModel : ViewModelBase {
         private readonly MyDatabase db;
-
         private string boxName;
+        private string qrcd;
+        private string category;
+        public ICommand SubmitCommand { protected set; get; }
+        public ICommand SecondPageCommand { protected set; get; }
 
-        public string BoxName
-        {
+        public string BoxName {
             get { return boxName; }
-            set
-            {
+            set {
                 boxName = value;
                 OnPropertyChanged();
             }
         }
-        private string qrcd;
-
-        public string QRCD
-        {
+        
+        public string QRCD {
             get { return qrcd; }
-            set
-            {
+            set {
                 qrcd = value;
                 OnPropertyChanged();
             }
         }
 
-        private string category;
-
-        public string Category
-        {
+        public string Category {
             get { return category; }
-            set
-            {
+            set {
                 category = value;
                 OnPropertyChanged();
             }
         }
-        public ICommand SubmitCommand { protected set; get; }
-        public ICommand SecondPageCommand { protected set; get; }
-        public MainViewModel()
-        {
+
+        public MainViewModel() {
             db = new MyDatabase();
             SubmitCommand = new Command(Submit);
-            SecondPageCommand = new Command(() =>
-            {
+            SecondPageCommand = new Command(() => {
             });
         }
 
-        public void Submit()
-        {
-            db.InsertBox(new Boxes()
-            {
+        public void Submit(){
+            db.InsertBox(new Boxes() {
                 BoxName = this.BoxName,
                 QRcd = QRCD,
                 Category = Category

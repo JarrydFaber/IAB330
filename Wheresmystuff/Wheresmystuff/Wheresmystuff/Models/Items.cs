@@ -7,6 +7,12 @@ using SQLite;
 using SQLiteNetExtensions.Attributes;
 
 
+/* Title: Where's My Stuff
+ * Subject: IAB330 
+ * Group Members: Doug Brennan, Andrew Wallington, Jarryd Bent, Joseph Richards
+ * Date: 29/10/17
+ */
+
 namespace Wheresmystuff.Models
 {
     public class Items

@@ -1,14 +1,18 @@
-﻿using System;
+﻿/* Title: Where's My Stuff
+ * Subject: IAB330 
+ * Group Members: Doug Brennan, Andrew Wallington, Jarryd Bent, Joseph Richards
+ * Date: 29/10/17
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Wheresmystuff.ViewModels
-{
-    public class ViewModelBase : INotifyPropertyChanged
-    {
+namespace Wheresmystuff.ViewModels {
+    public class ViewModelBase : INotifyPropertyChanged {
         public event PropertyChangedEventHandler PropertyChanged;
         /// <summary>
         /// Event for when IsBusy changes
@@ -28,8 +32,7 @@ namespace Wheresmystuff.ViewModels
         /// <summary>
         /// Default constructor
         /// </summary>
-        public ViewModelBase()
-        {
+        public ViewModelBase() {
             //Make sure validation is performed on startup
             Validate();
         }
@@ -37,38 +40,31 @@ namespace Wheresmystuff.ViewModels
         /// <summary>
         /// Returns true if the current state of the ViewModel is valid
         /// </summary>
-        public bool IsValid
-        {
+        public bool IsValid {
             get { return errors.Count == 0; }
         }
 
         /// <summary>
         /// A list of errors if IsValid is false
         /// </summary>
-        protected List<string> Errors
-        {
+        protected List<string> Errors {
             get { return errors; }
         }
 
         /// <summary>
         /// An aggregated error message
         /// </summary>
-        public virtual string Error
-        {
-            get
-            {
+        public virtual string Error {
+            get {
                 return errors.Aggregate(new StringBuilder(), (b, s) => b.AppendLine(s)).ToString().Trim();
             }
         }
-
-
 
         /// <summary>
         /// Protected method for validating the ViewModel
         /// - Fires PropertyChanged for IsValid and Errors
         /// </summary>
-        protected virtual void Validate()
-        {
+        protected virtual void Validate() {
             OnPropertyChanged("IsValid");
             OnPropertyChanged("Errors");
 
@@ -80,15 +76,12 @@ namespace Wheresmystuff.ViewModels
         /// </summary>
         /// <param name="validate">Func to determine if a value is valid</param>
         /// <param name="error">The error message to use if not valid</param>
-        protected virtual void ValidateProperty(Func<bool> validate, string error)
-        {
-            if (validate())
-            {
+        protected virtual void ValidateProperty(Func<bool> validate, string error) {
+            if (validate()) {
                 if (!Errors.Contains(error))
                     Errors.Add(error);
             }
-            else
-            {
+            else {
                 Errors.Remove(error);
             }
         }
@@ -96,18 +89,12 @@ namespace Wheresmystuff.ViewModels
         /// <summary>
         /// Value indicating if a spinner should be shown
         /// </summary>
-        public bool IsBusy
-        {
+        public bool IsBusy {
             get { return isBusy; }
-
-            set
-            {
-                if (isBusy != value)
-                {
+            set {
+                if (isBusy != value) {
                     isBusy = value;
-
                     OnPropertyChanged("IsBusy");
-
                     OnIsBusyChanged();
                 }
             }
@@ -116,13 +103,11 @@ namespace Wheresmystuff.ViewModels
         /// <summary>
         /// Other viewmodels can override this if something should be done when busy
         /// </summary>
-        protected virtual void OnIsBusyChanged()
-        {
+        protected virtual void OnIsBusyChanged() {
             IsBusyChanged?.Invoke(this, EventArgs.Empty);
         }
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string name = "")
-        {
+        protected virtual void OnPropertyChanged([CallerMemberName] string name = "") {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }

@@ -19,7 +19,7 @@ namespace Wheresmystuff
             BindingContext = new BoxViewModel();
         }
 
-        private void addNewBox_Clicked(object sender, EventArgs e) {
+        private void AddNewBox_Clicked(object sender, EventArgs e) {
             string text = box_entry.Text;
             Boxes box = new Boxes();
             box.BoxName = text;
@@ -28,8 +28,9 @@ namespace Wheresmystuff
             BindingContext = new BoxViewModel();
         }
 
-        private void editBox(object sender, EventArgs e) {
-            int temp_boxID = editBoxButton.CommandParameter;
+        private void EditBox(object sender, EventArgs e) {
+            //int temp_boxID = editBoxButton.CommandParameter;
+            int temp_boxID = 1;
             Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
         }
     }

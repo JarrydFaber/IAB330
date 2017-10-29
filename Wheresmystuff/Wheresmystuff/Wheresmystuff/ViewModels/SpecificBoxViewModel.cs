@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* Title: Where's My Stuff
+ * Subject: IAB330 
+ * Group Members: Doug Brennan, Andrew Wallington, Jarryd Bent, Joseph Richards
+ * Date: 29/10/17
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,8 +37,8 @@ namespace Wheresmystuff.ViewModels {
 
         public SpecificBoxViewModel(int boxID) {
             db = new MyDatabase();
-            //Box = new ObservableCollection<Boxes>(db.GetBox(boxID));
-            Item = new ObservableCollection<Items>(db.GetItemsInBox(boxID));
+            //box = new ObservableCollection<Boxes>(db.GetBox(boxID));
+            Item = new ObservableCollection<Items>(db.GetItemsInBox(boxID)); //Creates a view model to show all items in a Boxes instance
         }
     }
 }

@@ -28,7 +28,7 @@
 					BackgroundColor="MediumPurple"
 					HeightRequest="75"
 					WidthRequest="150"
-					Clicked="addCategory">
+					Clicked="AddCategory">
             </Button>
 
             <Label Text="Contents"
@@ -37,7 +37,20 @@
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
             </Label>
+            
+            <Entry x:Name="item_entry"
+                   Text="Enter New Item">
+            </Entry>
 
+            <Button x:Name="addNewIox" Text="Add Item"
+					FontSize="Medium"
+					BorderColor="Black"
+					BackgroundColor="MediumPurple"
+					HeightRequest="75"
+					WidthRequest="150"
+					Clicked="AddNewItem_Clicked">
+            </Button>
+            
             <ListView ItemsSource="{Binding Items}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -45,7 +58,7 @@
                             <ViewCell.View>
                                 <StackLayout Orientation="Horizontal" Padding="10,0">
                                     <StackLayout HorizontalOptions="StartAndExpand">
-                                        <Button Text="{Binding ItemName}" FontAttributes="Bold" Clicked="editItem" HeightRequest="75" 
+                                        <Button Text="{Binding ItemName}" FontAttributes="Bold" Clicked="EditItem" HeightRequest="75" 
                                                 WidthRequest="150" FontSize="Medium" BorderColor="Black"/>
                                     </StackLayout>
                                     <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding Complete}"/>

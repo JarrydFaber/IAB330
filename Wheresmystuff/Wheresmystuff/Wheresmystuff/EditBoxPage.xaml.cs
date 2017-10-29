@@ -17,16 +17,29 @@ namespace Wheresmystuff {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
     public partial class EditBoxPage : ContentPage {
+        private int temp_boxID;
+
         public EditBoxPage(int boxID) {
+            temp_boxID = boxID;
             InitializeComponent();
             BindingContext = new SpecificBoxViewModel(boxID);
     }
 
-        private void addCategory(object sender, EventArgs e) {
+        private void AddNewItem_Clicked(object sender, EventArgs e) {
+            string text = item_entry.Text;
+            Items item = new Items();
+            item.ItemName = text;
+            MyDatabase new_user = new MyDatabase();
+            new_user.AddItemToBox(item);
+            BindingContext = new SpecificBoxViewModel(temp_boxID);
+        }
+
+
+        private void AddCategory(object sender, EventArgs e) {
 
         }
 
-        private void editItem(object sender, EventArgs e) {
+        private void EditItem(object sender, EventArgs e) {
 
         }
 

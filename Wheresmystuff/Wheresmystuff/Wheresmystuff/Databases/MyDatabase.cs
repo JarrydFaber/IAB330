@@ -70,7 +70,7 @@ namespace Wheresmystuff.Databases {
 
         public int AddItemToBox(Items item) { //If Box contains item, update. Else insert item. 
             int num;
-            if (database.Table<Boxes>().Any(x => x.Items.Equals(item.ItemID))) { //TODO needs changing to match desired functionality
+            if (database.Table<Boxes>().Any(x => x.Items.Contains(item))) { //TODO needs changing to match desired functionality
                 num = database.Update(item);
             } else {
                 num = database.Insert(item);

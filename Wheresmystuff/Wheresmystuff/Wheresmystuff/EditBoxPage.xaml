@@ -42,7 +42,7 @@
                    Text="Enter New Item">
             </Entry>
 
-            <Button x:Name="addNewIox" Text="Add Item"
+            <Button x:Name="addNewBox" Text="Add Item"
 					FontSize="Medium"
 					BorderColor="Black"
 					BackgroundColor="MediumPurple"

@@ -23,12 +23,6 @@ namespace Wheresmystuff {
             temp_itemID = itemID;
             InitializeComponent();
             BindingContext = new SpecificItemViewModel(itemID);
-    }
-
-        private void EditItem(object sender, EventArgs e) {
-            //int temp_itemID = editBoxButton.CommandParameter;
-            int temp_itemID = 1; // has been set to 1 until major issue has been fixed
-            Navigation.PushModalAsync(new EditItemPage(temp_itemID));
         }
     }
 }

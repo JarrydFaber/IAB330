@@ -23,7 +23,20 @@ namespace Wheresmystuff {
             temp_itemID = itemID;
             InitializeComponent();
             BindingContext = new SpecificItemViewModel(itemID);
-    }
+        }
+
+        private void AddNewItem_Clicked(object sender, EventArgs e) {
+            string text = item_entry.Text;
+            Items item = new Items();
+            item.ItemName = text;
+            MyDatabase new_user = new MyDatabase();
+            new_user.AddItemToBox(item);
+            BindingContext = new ItemViewModel();
+        }
+
+        private void AddCategory(object sender, EventArgs e) {
+
+        }
 
         private void EditItem(object sender, EventArgs e) {
             //int temp_itemID = editBoxButton.CommandParameter;

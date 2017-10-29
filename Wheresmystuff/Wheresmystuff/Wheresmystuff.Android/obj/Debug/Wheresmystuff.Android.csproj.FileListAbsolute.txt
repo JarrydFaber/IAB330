@@ -181,3 +181,12 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\res\values\styles.xml
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\R.cs.flag
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\uploadflags.txt
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\bin\Debug\Wheresmystuff.Android.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\SQLiteNetExtensions.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.Android.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Wheresmystuff.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

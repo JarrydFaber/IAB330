@@ -12,8 +12,6 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Wheresmystuff {
-    //private readonly MyDatabase db;
-    //private ObservableCollection<Boxes> box;
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
     public partial class EditItemPage : ContentPage {
@@ -22,7 +20,19 @@ namespace Wheresmystuff {
         public EditItemPage(int itemID) {
             temp_itemID = itemID;
             InitializeComponent();
+            MyDatabase new_user = new MyDatabase();
+            Items item = new_user.GetItem(itemID);
+            itemName.Text = "Name: " + item.ItemName;
+            itemQuantity.Text = "Quantity: " + item.Quantity.ToString();
+            itemDescription.Text = "Description: " + item.TextDesc;
+            itemId.Text = "ID: " + item.ItemID;
             BindingContext = new SpecificItemViewModel(itemID);
+        }
+
+        private void DeleteItem(object sender, EventArgs e) {
+            MyDatabase new_user = new MyDatabase();
+            Items item = new_user.GetItem(temp_itemID);
+            new_user.DeleteItem(item);
         }
     }
 }

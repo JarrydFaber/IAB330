@@ -38,7 +38,11 @@ namespace Wheresmystuff {
         }
 
         private void AddCategory(object sender, EventArgs e) {
-            //TODO
+            Category.Text = new Entry().Text;
+            Boxes box = new Boxes();
+            box.Category = Category.Text;
+            MyDatabase new_user = new MyDatabase();
+            new_user.InsertOrUpdateBox(box);
         }
 
         private void EditItem(object sender, SelectedItemChangedEventArgs e) {

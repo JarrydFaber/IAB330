@@ -15,26 +15,40 @@
          Orientation="Vertical"
          Spacing="10">
 
-            <Label Text="{Binding ItemName}"
+            <Label x:Name="itemName"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
             </Label>
 
-            <Label Text="{Binding Quantity}"
+            <Label x:Name="itemQuantity"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
             </Label>
 
-            <Label Text="{Binding TextDesc}"
+            <Label x:Name="itemDescription"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
             </Label>
+
+            <Label x:Name="itemId"
+				   FontSize="Large"
+				   TextColor="Green"
+				   HorizontalTextAlignment="Center"
+				   VerticalOptions="Start">
+            </Label>
+
+            <Button Text="DELETE ITEM"
+                    FontSize="Large"
+				    TextColor="Red"
+				    VerticalOptions="Start"
+                    Clicked="DeleteItem">
+            </Button>
 
         </StackLayout>
 	</ContentPage.Content>

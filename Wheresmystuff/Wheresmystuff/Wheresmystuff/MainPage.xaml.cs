@@ -14,7 +14,7 @@ namespace Wheresmystuff
 		{
 			InitializeComponent();
             MyDatabase new_user = new MyDatabase();
-            new_user.CreateTables();
+            //new_user.CreateTables();
         }
 
 		void BoxesButton(object sender, EventArgs args)

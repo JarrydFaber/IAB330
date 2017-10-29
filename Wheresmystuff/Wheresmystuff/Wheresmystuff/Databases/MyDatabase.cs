@@ -46,6 +46,7 @@ namespace Wheresmystuff.Databases {
             database.Commit();
             return num;
         }
+
         public int DeleteBox(Boxes box) { //Deletes box instance
             int num;
             num = database.Delete<Boxes>(box.BoxID);

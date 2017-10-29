@@ -30,7 +30,7 @@ namespace Wheresmystuff
 
         private void EditBox(object sender, EventArgs e) {
             //int temp_boxID = editBoxButton.CommandParameter;
-            int temp_boxID = 1;
+            int temp_boxID = 1; // has been set to 1 until major issue has been fixed
             Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
         }
     }

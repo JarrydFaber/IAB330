@@ -85,5 +85,6 @@ C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmyst
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.ScanPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.PrintPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.EditBoxPage.xaml.g.cs
+C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.EditItemPage.xaml.g.cs
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.dll
 C:\Users\Doug Brennan\Source\Repos\IAB330\Wheresmystuff\Wheresmystuff\Wheresmystuff\obj\Debug\Wheresmystuff.pdb

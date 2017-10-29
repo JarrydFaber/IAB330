@@ -14,34 +14,48 @@ using Xamarin.Forms.Xaml;
 namespace Wheresmystuff {
     //private readonly MyDatabase db;
     //private ObservableCollection<Boxes> box;
-    //[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 
     public partial class EditBoxPage : ContentPage {
-        private int temp_itemID;
+        private int temp_boxID;
 
-        public EditBoxPage(int itemID) {
-            temp_itemID = itemID;
+        public EditBoxPage(int boxID) {
+            temp_boxID = boxID;
             InitializeComponent();
-            BindingContext = new SpecificItemViewModel(itemID);
+            BindingContext = new SpecificBoxViewModel(boxID);
         }
 
         private void AddNewItem_Clicked(object sender, EventArgs e) {
             string text = item_entry.Text;
             Items item = new Items();
             item.ItemName = text;
+            item.BoxID = temp_boxID;
+            item.Quantity = 1;
+            item.TextDesc = "default";
             MyDatabase new_user = new MyDatabase();
-            new_user.AddItemToBox(item);
+            new_user.AddItem(item);
             BindingContext = new ItemViewModel();
         }
 
         private void AddCategory(object sender, EventArgs e) {
-
+            //TODO
         }
 
-        private void EditItem(object sender, EventArgs e) {
-            //int temp_itemID = editBoxButton.CommandParameter;
-            int temp_itemID = 1; // has been set to 1 until major issue has been fixed
-            Navigation.PushModalAsync(new EditItemPage(temp_itemID));
+        private void EditItem(object sender, SelectedItemChangedEventArgs e) {
+            var selecteditem = e.SelectedItem as Items;
+            if (selecteditem == null) {
+                throw new Exception();
+            } else {
+                var item = new Items() {
+                    ItemID = selecteditem.ItemID,
+                    //AccountId = ((int)Application.Current.Properties["userId"]),
+                    BoxID = selecteditem.BoxID,
+                    ItemName = selecteditem.ItemName,
+                    Quantity = selecteditem.Quantity,
+                    TextDesc = selecteditem.TextDesc
+                };
+                Navigation.PushModalAsync(new EditItemPage(item.ItemID));
+            }
         }
     }
 }

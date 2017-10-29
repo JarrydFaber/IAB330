@@ -34,16 +34,17 @@
 					Clicked="AddNewBox_Clicked">
             </Button>
 
-            <ListView x:Name="boxList" ItemsSource="{Binding Boxes}">
+            <ListView x:Name="boxList" ItemsSource="{Binding Boxes}" SelectedItem="{Binding SelectedBox, Mode=TwoWay}" 
+                      ItemSelected="EditBox" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate> 
                     <DataTemplate> 
                         <ViewCell>
                             <ViewCell.View>
                                 <StackLayout Orientation="Horizontal" Padding="10,0">
                                     <StackLayout HorizontalOptions="StartAndExpand">
-                                        <Button x:Name="editBoxButton" Text="{Binding BoxName}" CommandParameter="{Binding BoxID}"
-                                                FontAttributes="Bold" Clicked="EditBox" HeightRequest="75" 
-                                                WidthRequest="150" FontSize="Medium" BorderColor="Black"/>
+                                        <Label x:Name="editBoxButton" Text="{Binding BoxName}"
+                                                FontAttributes="Bold" HeightRequest="75" 
+                                                WidthRequest="150" FontSize="Medium"/>
                                     </StackLayout>
                                     <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding Complete}"/>
                                 </StackLayout>

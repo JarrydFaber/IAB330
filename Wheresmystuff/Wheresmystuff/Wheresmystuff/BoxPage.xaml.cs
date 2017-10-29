@@ -10,8 +10,7 @@ using Wheresmystuff.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Wheresmystuff
-{
+namespace Wheresmystuff {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BoxPage : ContentPage {
         public BoxPage() {
@@ -23,15 +22,26 @@ namespace Wheresmystuff
             string text = box_entry.Text;
             Boxes box = new Boxes();
             box.BoxName = text;
+            box.Category = "default";
+            box.QRcd = "default";
             MyDatabase new_user = new MyDatabase();
             new_user.InsertBox(box);
             BindingContext = new BoxViewModel();
         }
 
-        private void EditBox(object sender, EventArgs e) {
-            //int temp_boxID = editBoxButton.CommandParameter;
-            int temp_boxID = 1; // has been set to 1 until major issue has been fixed
-            Navigation.PushModalAsync(new EditBoxPage(temp_boxID));
+        private void EditBox(object sender, SelectedItemChangedEventArgs e) {
+            var selectedbox = e.SelectedItem as Boxes;
+            if (selectedbox == null) {
+            } else {
+                var box = new Boxes() {
+                    BoxID = selectedbox.BoxID,
+                    //AccountId = ((int)Application.Current.Properties["userId"]),
+                    BoxName = selectedbox.BoxName,
+                    Category = selectedbox.Category,
+                    QRcd = selectedbox.QRcd
+                };
+                Navigation.PushModalAsync(new EditBoxPage(box.BoxID));
+            }
         }
     }
 }

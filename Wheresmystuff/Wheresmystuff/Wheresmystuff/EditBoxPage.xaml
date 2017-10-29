@@ -51,15 +51,16 @@
 					Clicked="AddNewItem_Clicked">
             </Button>
             
-            <ListView ItemsSource="{Binding Items}">
+            <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                      ItemSelected="EditItem" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
                                 <StackLayout Orientation="Horizontal" Padding="10,0">
                                     <StackLayout HorizontalOptions="StartAndExpand">
-                                        <Button Text="{Binding ItemName}" FontAttributes="Bold" Clicked="EditItem" HeightRequest="75" 
-                                                WidthRequest="150" FontSize="Medium" BorderColor="Black"/>
+                                        <Label Text="{Binding ItemName}" FontAttributes="Bold" HeightRequest="75" 
+                                                WidthRequest="150" FontSize="Medium" />
                                     </StackLayout>
                                     <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding Complete}"/>
                                 </StackLayout>

@@ -16,6 +16,7 @@ namespace Wheresmystuff {
 
     public partial class EditItemPage : ContentPage {
         public Items temp_item;
+        
 
         public EditItemPage(Items item) {
             temp_item = item;
@@ -28,6 +29,8 @@ namespace Wheresmystuff {
             itemId.Text = "ID: " + item.ItemID;
             BindingContext = new SpecificItemViewModel(item);
         }
+
+
 
         private void DeleteItem(object sender, EventArgs e) {
             MyDatabase new_user = new MyDatabase();

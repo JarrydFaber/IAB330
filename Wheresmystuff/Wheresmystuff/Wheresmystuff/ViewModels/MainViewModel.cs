@@ -18,7 +18,7 @@ using Xamarin.Forms;
 
 namespace Wheresmystuff.ViewModels {
     public class MainViewModel : ViewModelBase {
-        private readonly MyDatabase db;
+        private readonly MyDatabase dbb;
         private string boxName;
         private string qrcd;
         private string category;
@@ -50,14 +50,14 @@ namespace Wheresmystuff.ViewModels {
         }
 
         public MainViewModel() {
-            db = new MyDatabase();
+            dbb = new MyDatabase();
             SubmitCommand = new Command(Submit);
             SecondPageCommand = new Command(() => {
             });
         }
 
         public void Submit(){
-            db.InsertBox(new Boxes() {
+            dbb.InsertBox(new Boxes() {
                 BoxName = this.BoxName,
                 QRcd = QRCD,
                 Category = Category

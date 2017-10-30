@@ -36,8 +36,8 @@
 
             <ListView x:Name="boxList" ItemsSource="{Binding Boxes}" SelectedItem="{Binding SelectedBox, Mode=TwoWay}" 
                       ItemSelected="EditBox" IsPullToRefreshEnabled="True">
-                <ListView.ItemTemplate> 
-                    <DataTemplate> 
+                <ListView.ItemTemplate>
+                    <DataTemplate>
                         <ViewCell>
                             <ViewCell.View>
                                 <StackLayout Orientation="Horizontal" Padding="10,0">

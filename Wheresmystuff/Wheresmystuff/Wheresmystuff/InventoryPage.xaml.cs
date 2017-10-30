@@ -27,5 +27,22 @@ namespace Wheresmystuff
             database.AddItem(item); 
             BindingContext = new ItemViewModel();
         }
+
+        private void EditItem(object sender, SelectedItemChangedEventArgs e) {
+            var selecteditem = e.SelectedItem as Items;
+            if (selecteditem == null) {
+                throw new Exception();
+            } else {
+                var item = new Items() {
+                    ItemID = selecteditem.ItemID,
+                    //AccountId = ((int)Application.Current.Properties["userId"]),
+                    BoxID = selecteditem.BoxID,
+                    ItemName = selecteditem.ItemName,
+                    Quantity = selecteditem.Quantity,
+                    TextDesc = selecteditem.TextDesc
+                };
+                Navigation.PushModalAsync(new EditItemPage(item));
+            }
+        }
     }
 }

@@ -38,13 +38,6 @@
 					Clicked="AddCategory">
             </Button>
 
-            <Label Text="Contents"
-				   FontSize="Large"
-				   TextColor="Green"
-				   HorizontalTextAlignment="Center"
-				   VerticalOptions="Start">
-            </Label>
-            
             <Entry x:Name="item_entry"
                    Text="Enter New Item">
             </Entry>
@@ -57,7 +50,14 @@
 					WidthRequest="150"
 					Clicked="AddNewItem_Clicked">
             </Button>
-            
+
+            <Label Text="Contents"
+				   FontSize="Large"
+				   TextColor="Green"
+				   HorizontalTextAlignment="Center"
+				   VerticalOptions="Start">
+            </Label>
+
             <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
                       ItemSelected="EditItem" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
@@ -77,6 +77,13 @@
                 </ListView.ItemTemplate>
             </ListView>
 
+            <Button Text="DELETE BOX"
+                    Clicked="DeleteBox"
+                    TextColor="Black"
+                    BackgroundColor="Red"
+					HeightRequest="75"
+					WidthRequest="150">
+            </Button>
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -15,7 +15,7 @@ using Wheresmystuff.Interfaces;
 using Wheresmystuff.Models;
 using Xamarin.Forms;
 
-namespace Wheresmystuff.Databases {
+namespace Wheresmystuff.Databases { 
     public class MyDatabase {
         public SQLiteConnection database;
 
@@ -27,6 +27,11 @@ namespace Wheresmystuff.Databases {
         public void CreateTables() { //Initialises the database tables
             database.CreateTable<Boxes>();
             database.CreateTable<Items>();
+        }
+
+        public void DeleteTables() {
+            database.DropTable<Boxes>();
+            database.DropTable<Items>();
         }
 
 //Boxes
@@ -49,8 +54,8 @@ namespace Wheresmystuff.Databases {
 
         public int DeleteBox(Boxes box) { //Deletes box instance
             int num;
-            num = database.Delete<Boxes>(box.BoxID);
-            database.Commit();
+            num = database.Delete<Boxes>(box);
+            //database.Commit();
             return num;
         }
 
@@ -82,7 +87,7 @@ namespace Wheresmystuff.Databases {
 
         public int DeleteItem(Items item) { //Deletes Items instance
             int num;
-            num = database.Delete<Items>(item.ItemID);
+            num = database.Delete<Items>(item);
             database.Commit();
             return num;
         }

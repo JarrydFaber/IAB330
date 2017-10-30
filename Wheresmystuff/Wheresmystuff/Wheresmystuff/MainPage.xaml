@@ -54,6 +54,17 @@
 					WidthRequest="150"
 					HorizontalOptions="End"
 					Clicked="PrintButton"></Button>
+                <Button Text="Delete Data"
+                    TextColor="Black"
+                    FontSize="Medium"
+					BorderColor="Red"
+					BackgroundColor="Red"
+					HeightRequest="75"
+					WidthRequest="150"
+					HorizontalOptions="End"
+                    Clicked="DeleteData">
+                </Button>
+                        
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>

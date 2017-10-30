@@ -12,10 +12,8 @@ using System.Threading.Tasks;
 using SQLite;
 using SQLiteNetExtensions.Attributes;
 
-namespace Wheresmystuff.Models
-{
-    public class Boxes
-    {
+namespace Wheresmystuff.Models {
+    public class Boxes {
         [PrimaryKey, AutoIncrement, NotNull] //Sets the Primary Key for the table and switches on AutoIncrement
         public int BoxID { get; set; }
 

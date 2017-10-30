@@ -18,9 +18,11 @@ namespace Wheresmystuff {
 
     public partial class EditBoxPage : ContentPage {
         private Boxes temp_box;
+        public int item_counter = 0;
 
         public EditBoxPage(Boxes box) {
             temp_box = box;
+            BindingContext = new SpecificBoxViewModel(box);
             InitializeComponent();
             boxName.Text = "Box Name: " + box.BoxName;
             boxID.Text = "Box ID: " + box.BoxID.ToString();
@@ -30,6 +32,7 @@ namespace Wheresmystuff {
         private void AddNewItem_Clicked(object sender, EventArgs e) {
             string text = item_entry.Text;
             Items item = new Items();
+            item.ItemID = item_counter + 1;
             item.ItemName = text;
             item.BoxID = temp_box.BoxID;
             item.Quantity = 1;
@@ -62,6 +65,12 @@ namespace Wheresmystuff {
                 };
                 Navigation.PushModalAsync(new EditItemPage(item));
             }
+        }
+
+        private void DeleteBox(object sender, EventArgs e) {
+            MyDatabase new_user = new MyDatabase();
+            new_user.DeleteBox(temp_box);
+            Navigation.PushModalAsync(new BoxPage());
         }
     }
 }

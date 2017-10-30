@@ -13,6 +13,7 @@ using Xamarin.Forms.Xaml;
 namespace Wheresmystuff {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class BoxPage : ContentPage {
+        public int box_counter = 0;
         public BoxPage() {
             InitializeComponent();
             BindingContext = new BoxViewModel();
@@ -20,10 +21,11 @@ namespace Wheresmystuff {
 
         private void AddNewBox_Clicked(object sender, EventArgs e) {
             string text = box_entry.Text;
-            Boxes box = new Boxes();
-            box.BoxName = text;
-            box.Category = "default";
-            box.QRcd = "default";
+            Boxes box = new Boxes() {
+                BoxID = box_counter + 1,
+                BoxName = text,
+                Category = "default",
+                QRcd = "default"};
             MyDatabase new_user = new MyDatabase();
             new_user.InsertBox(box);
             BindingContext = new BoxViewModel();
@@ -35,7 +37,6 @@ namespace Wheresmystuff {
             } else {
                 var box = new Boxes() {
                     BoxID = selectedbox.BoxID,
-                    //AccountId = ((int)Application.Current.Properties["userId"]),
                     BoxName = selectedbox.BoxName,
                     Category = selectedbox.Category,
                     QRcd = selectedbox.QRcd

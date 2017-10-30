@@ -15,26 +15,26 @@
          Orientation="Vertical"
          Spacing="10">
 
-            <Label x:Name="itemName"
+            <Entry x:Name="itemName"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
-            </Label>
+            </Entry>
 
-            <Label x:Name="itemQuantity"
+            <Entry x:Name="itemQuantity"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
-            </Label>
+            </Entry>
 
-            <Label x:Name="itemDescription"
+            <Entry x:Name="itemDescription"
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
-            </Label>
+            </Entry>
 
             <Label x:Name="itemId"
 				   FontSize="Large"

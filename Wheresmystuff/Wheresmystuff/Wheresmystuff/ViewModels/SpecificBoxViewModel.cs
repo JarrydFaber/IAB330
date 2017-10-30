@@ -35,10 +35,10 @@ namespace Wheresmystuff.ViewModels {
             }
         }
 
-        public SpecificBoxViewModel(int boxID) {
+        public SpecificBoxViewModel(Boxes box) {
             db = new MyDatabase();
             //box = new ObservableCollection<Boxes>(db.GetBox(boxID));
-            Item = new ObservableCollection<Items>(db.GetItemsInBox(boxID)); //Creates a view model to show all items in a Boxes instance
+            Item = new ObservableCollection<Items>(db.GetItemsInBox(box)); //Creates a view model to show all items in a Boxes instance
         }
     }
 }

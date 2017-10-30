@@ -40,7 +40,7 @@ namespace Wheresmystuff {
                     Category = selectedbox.Category,
                     QRcd = selectedbox.QRcd
                 };
-                Navigation.PushModalAsync(new EditBoxPage(box.BoxID));
+                Navigation.PushModalAsync(new EditBoxPage(box));
             }
         }
     }

@@ -58,8 +58,8 @@ namespace Wheresmystuff.Databases {
             return database.Table<Boxes>().ToList();
         }
 
-        public Boxes GetBox(int key) { //Returns a box using its BoxID
-            return database.Table<Boxes>().Where(x => x.BoxID == key).FirstOrDefault();
+        public Boxes GetBox(Boxes box) { //Returns a box using its BoxID
+            return database.Table<Boxes>().Where(x => x == box).FirstOrDefault();
         }
 
 //Items
@@ -68,16 +68,6 @@ namespace Wheresmystuff.Databases {
             database.Commit();
             return item_temp;
         }
-
-        //public int AddItemToBox(Items item) { //If Box contains item, update. Else insert item. 
-        //    int num;
-        //    if (database.Table<Boxes>().Any(x => x.Items.Contains(item))) { //TODO needs changing to match desired functionality
-        //        num = database.Update(item);
-        //    } else {
-        //        num = database.Insert(item);
-        //    }
-        //    return num;
-        //}
 
         public int InsertOrUpdateItem(Items item) { //Updates Items instance if it exists, if not item is inserted into Items table
             int num;
@@ -101,12 +91,12 @@ namespace Wheresmystuff.Databases {
             return database.Table<Items>().ToList();
         }
 
-        public Items GetItem(int key) { //Returns a specific item using its ItemID
-            return database.Table<Items>().Where(x => x.ItemID == key).FirstOrDefault();
+        public Items GetItem(Items item) { //Returns a specific item 
+            return database.Table<Items>().Where(x => x.ItemID == item.ItemID).FirstOrDefault();
         }
 
-        public List<Items> GetItemsInBox(int key) { //Returns all items which have been assigned to a specific BoxID
-            return database.Table<Items>().Where(x => x.BoxID == key).ToList();
+        public List<Items> GetItemsInBox(Boxes box) { //Returns all items which have been assigned to a specific BoxID
+            return database.Table<Items>().Where(x => x.BoxID == box.BoxID).ToList();
         }
     }
 }

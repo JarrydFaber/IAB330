@@ -17,19 +17,21 @@ namespace Wheresmystuff {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
     public partial class EditBoxPage : ContentPage {
-        private int temp_boxID;
+        private Boxes temp_box;
 
-        public EditBoxPage(int boxID) {
-            temp_boxID = boxID;
+        public EditBoxPage(Boxes box) {
+            temp_box = box;
             InitializeComponent();
-            BindingContext = new SpecificBoxViewModel(boxID);
+            boxName.Text = "Box Name: " + box.BoxName;
+            boxID.Text = "Box ID: " + box.BoxID.ToString();
+            BindingContext = new SpecificBoxViewModel(box);
         }
 
         private void AddNewItem_Clicked(object sender, EventArgs e) {
             string text = item_entry.Text;
             Items item = new Items();
             item.ItemName = text;
-            item.BoxID = temp_boxID;
+            item.BoxID = temp_box.BoxID;
             item.Quantity = 1;
             item.TextDesc = "default";
             MyDatabase new_user = new MyDatabase();
@@ -58,7 +60,7 @@ namespace Wheresmystuff {
                     Quantity = selecteditem.Quantity,
                     TextDesc = selecteditem.TextDesc
                 };
-                Navigation.PushModalAsync(new EditItemPage(item.ItemID));
+                Navigation.PushModalAsync(new EditItemPage(item));
             }
         }
     }

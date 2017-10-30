@@ -35,9 +35,9 @@ namespace Wheresmystuff.ViewModels {
             }
         }
 
-        public SpecificItemViewModel(int itemID) {
+        public SpecificItemViewModel(Items item) {
             db = new MyDatabase();
-            item = new ObservableCollection<Items>(db.GetAllItems().Where(x => x.ItemID == itemID));
+            item = new ObservableCollection<Items>(db.GetAllItems().Where(x => x.ItemID == item.ItemID)).FirstOrDefault();
         }
     }
 }

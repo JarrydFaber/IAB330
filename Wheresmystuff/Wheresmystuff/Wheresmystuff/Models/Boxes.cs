@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-/* Title: Where's My Stuff
+﻿/* Title: Where's My Stuff
  * Subject: IAB330 
  * Group Members: Doug Brennan, Andrew Wallington, Jarryd Bent, Joseph Richards
  * Date: 29/10/17
  */
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +16,7 @@ namespace Wheresmystuff.Models
 {
     public class Boxes
     {
-        [PrimaryKey, AutoIncrement] //Sets the Primary Key for the table and switches on AutoIncrement
+        [PrimaryKey, AutoIncrement, NotNull] //Sets the Primary Key for the table and switches on AutoIncrement
         public int BoxID { get; set; }
 
         [ForeignKey (typeof(Accounts))] //Sets AccountId as a Foreign Key
@@ -31,6 +31,5 @@ namespace Wheresmystuff.Models
 
         [OneToMany(CascadeOperations = CascadeOperation.All)] //Sets One-to-Many r/ship between Boxes and Accounts
         public List<Items> Items{ get; set; } //Creates an indexed list of Items
-
     }
 }

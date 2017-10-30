@@ -15,12 +15,19 @@
          Orientation="Vertical"
          Spacing="10">
             
-			<Label Text="{Binding BoxName}"
+			<Label x:Name="boxName" 
 				   FontSize="Large"
 				   TextColor="Green"
 				   HorizontalTextAlignment="Center"
 				   VerticalOptions="Start">
 			</Label>
+
+            <Label x:Name="boxID" 
+				   FontSize="Large"
+				   TextColor="Green"
+				   HorizontalTextAlignment="Center"
+				   VerticalOptions="Start">
+            </Label>
 
             <Button x:Name="Category" Text="Add Catgeory"
 					FontSize="Medium"

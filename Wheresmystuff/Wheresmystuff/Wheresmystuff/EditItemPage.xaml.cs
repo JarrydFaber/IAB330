@@ -15,23 +15,23 @@ namespace Wheresmystuff {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
     public partial class EditItemPage : ContentPage {
-        private int temp_itemID;
+        public Items temp_item;
 
-        public EditItemPage(int itemID) {
-            temp_itemID = itemID;
+        public EditItemPage(Items item) {
+            temp_item = item;
             InitializeComponent();
             MyDatabase new_user = new MyDatabase();
-            Items item = new_user.GetItem(itemID);
+            //temp_item = new_user.GetItem(item);
             itemName.Text = "Name: " + item.ItemName;
             itemQuantity.Text = "Quantity: " + item.Quantity.ToString();
             itemDescription.Text = "Description: " + item.TextDesc;
             itemId.Text = "ID: " + item.ItemID;
-            BindingContext = new SpecificItemViewModel(itemID);
+            BindingContext = new SpecificItemViewModel(item);
         }
 
         private void DeleteItem(object sender, EventArgs e) {
             MyDatabase new_user = new MyDatabase();
-            Items item = new_user.GetItem(temp_itemID);
+            Items item = new_user.GetItem(temp_item);
             new_user.DeleteItem(item);
         }
     }
